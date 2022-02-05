@@ -1,7 +1,6 @@
 from turtle import Turtle
 import random
 
-RAND_ANGLE = random.randint(120, 240)
 
 class Ball(Turtle):
     def __init__(self):
@@ -15,7 +14,6 @@ class Ball(Turtle):
         self.ball = Turtle("circle")
         self.ball.color("white")
         self.ball.penup()
-        self.ball.setheading(RAND_ANGLE)
         self.speed("fastest")
     
     def detected_collision(self, position):
