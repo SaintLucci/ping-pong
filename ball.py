@@ -6,8 +6,8 @@ class Ball(Turtle):
     def __init__(self):
         super().__init__()
         self.create_ball()
-        self.move_x = 5
-        self.move_y = 5
+        self.move_x = 3.5
+        self.move_y = 3.5
         self.ball_speed = .02
 
     def create_ball(self):

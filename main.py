@@ -32,7 +32,7 @@ def ping_pong():
     player_one_paddle.reset_position()
     player_two_paddle.reset_position()
     ball = Ball()
-    ball.ball_speed = .02
+    ball.ball_speed = .001
     is_game_on = True
 
     screen.listen()
